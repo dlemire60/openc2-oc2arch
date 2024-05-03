@@ -269,7 +269,7 @@ these assumptions.
 
 -   **Consumer**: A managed device / application that receives Commands. Note
     that a single device / application can have both Consumer and Producer
-    capabilities.
+    capabilities. A Consumer will implement one or more Actuator Profiles.
 
 -   **Message**: A content- and transport-independent set of elements conveyed
     between Consumers and Producers.
